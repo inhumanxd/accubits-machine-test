@@ -4,10 +4,14 @@
   "description": "API to send newsletters to people from csv files.",
   "main": "app.js",
   "scripts": {
-    "start": "SET NODE_ENV=production&node app",
-    "dev": "SET NODE_ENV=development&nodemon app",
-    "startConsumer": "SET NODE_ENV=production&node consumer",
-    "devStartConsumer": "SET NODE_ENV=development&nodemon consumer",
+    "start": "NODE_ENV=production node app",
+    "dev": "NODE_ENV=development nodemon app",
+    "startConsumer": "NODE_ENV=production node consumer",
+    "devStartConsumer": "NODE_ENV=development nodemon consumer",
+    "startW": "SET NODE_ENV=production&node app",
+    "devW": "SET NODE_ENV=development&nodemon app",
+    "startConsumerW": "SET NODE_ENV=production&node consumer",
+    "devStartConsumerW": "SET NODE_ENV=development&nodemon consumer",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -45,7 +45,8 @@ Create **development.env** and **production.env** in environment folder.
 You will find scripts to run newsletter server in **package.json**.
 
 ```
-npm run dev
+Linux: npm run dev
+Windows: npm run devW
 ```
 
 This script/command will run newsletter server in development mode.
@@ -55,7 +56,8 @@ This script/command will run newsletter server in development mode.
 Consumer server consumes messages which are sent from newsletter server.
 
 ```
-npm run devStartConsumer
+Linux: npm run devStartConsumer
+Windows: npm run devStartConsumerW
 ```
 
 This script/command runs consumer in development mode.
