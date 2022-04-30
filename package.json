@@ -1,0 +1,39 @@
+{
+  "name": "newsletters",
+  "version": "1.0.0",
+  "description": "API to send newsletters to people from csv files.",
+  "main": "app.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production&node app",
+    "dev": "SET NODE_ENV=development&nodemon app",
+    "startConsumer": "SET NODE_ENV=production&node consumer",
+    "devStartConsumer": "SET NODE_ENV=development&nodemon consumer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inhumanxd/accubits-machine-test.git"
+  },
+  "keywords": [
+    "Newsletter",
+    "Newsletters"
+  ],
+  "author": "Bhavik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inhumanxd/accubits-machine-test/issues"
+  },
+  "homepage": "https://github.com/inhumanxd/accubits-machine-test#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
