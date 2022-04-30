@@ -2,6 +2,8 @@
 
 An API to subscribe users to your newsletter and sending them newsletters from csv file using APIs.
 
+You can find postman collection here: [Postman Collection](https://documenter.getpostman.com/view/15572045/UyrGBDyq)
+
 MongoDB is used as database for storing user details. <br>
 RabbitMQ is used as Messaging Broker to queue emails. <br>
 You can use RabbitMQ server or Local instance of RabbitMQ. <br>
